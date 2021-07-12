@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-decoration: none;  
+}
+.principal{
+    width: 100%;
+    padding: 0 auto;
+}
+.columna1 .columna2{
+    padding: 0 auto;
+}
+.columna1{
+    min-height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+}
+.columna2{
+    width: 80%;
+    float: right;
+    z-index: 1;
+}
+video .columna2{
+    width: 100% !important;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+}
+.footer .tf-right{
+    float: right;
+    text-align: right;
+}
+.credits{
+    text-align: right;
+    font-size: 8px;
+}
+a:link {
+    color:black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color:black;
+    background-color: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+} 
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.image-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.tf-left{
+    text-align: left !important;
+    float: left !important;
+}
+.tf-right{
+    text-align: right !important;
+    float: right !important;
+}
+.child1{
+    float: left;
+    width: 49%;
+    margin-right: 10px;
+    height: 50%;
+}
+.child2{
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+.completo{
+    width: 100%;
+    float: right;
+
+}
+.stockists{
+    width: 100%;
+    display: flex;
+
+}
+.st-1{
+    width: 70%;
+}
+
+
+
+
+@media all and (max-width: 500px){
+    .logoindex{
+        width: 100%;
+        align-items: center !important;
+    }
+}
